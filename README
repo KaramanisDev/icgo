@@ -1,0 +1,13 @@
+To run:
+- docker build -t "ic" .
+- docker run -p 8081:8081 ic
+- redirect your browser to http://localhost:8081/?image=IMAGE_URL_HERE&filter=FILTER_NAME_HERE
+
+- just replace the IMAGE_URL_HERE with an images full URL
+- and replace the FILTER_NAME_HERE with one of the filters below
+
+Available filters:
+- sketch
+- sepia
+- blur
+- negative
